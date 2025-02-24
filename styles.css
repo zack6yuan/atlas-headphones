@@ -31,3 +31,42 @@ nav a {
   text-decoration: none;
   padding: 25px;
 }
+
+nav a:hover {
+  color: #FF6565;
+  transition: 0.3s ease-in-out;
+}
+
+nav a:active {
+  color: white;
+}
+
+.action {
+  background-color: #FF6565;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  width: 162px;
+  height: 44px;
+}
+
+.hero h1 {
+  color: white;
+  text-align: center;
+  font-size: 42px;
+  margin-top: 400px;
+  margin-bottom: -20px;
+}
+
+.hero h3 {
+  color: white;
+  text-align: center;
+  font-size: 21px;
+}
+
+.hero p {
+  color: white;
+  width: 637px;
+  text-align: center;
+  line-height: 30px;
+}
