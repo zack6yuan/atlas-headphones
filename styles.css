@@ -205,6 +205,16 @@ nav a:active {
 
 .contact-fields input {
   display: flex;
+  margin: 0 auto;
+  padding: 30px;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #979797;
+}
+
+.contact-fields input::placeholder {
+  color: black;
+  font-weight: bolder;
 }
 
 .logo {
