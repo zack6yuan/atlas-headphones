@@ -158,6 +158,12 @@ nav a:active {
   margin-top: 11px;
 }
 
+@media (max-width: 480px) {
+  .frequency {
+    margin-top: -250px;
+  }
+}
+
 .music {
   margin-top: 19px;
 }
