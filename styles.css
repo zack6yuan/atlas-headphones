@@ -47,6 +47,14 @@ nav a:active {
   width: 162px;
   height: 44px;
   font-weight: bold;
+  margin-left: 850px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.action:hover {
+  background-color:#742f2f;
+  transition: 0.3s ease-in-out;
 }
 
 .hero h1 {
@@ -74,7 +82,7 @@ nav a:active {
 .about h1 {
   display: flex;
   justify-content: center;
-  margin-top: 400px;
+  margin-top: 300px;
   color: black;
   font-size: 32px;
 }
@@ -83,10 +91,24 @@ nav a:active {
   display: flex;
   justify-content: center;
   padding: 140px;
+  text-align: center;
 }
 
 .services p {
   width: 207px;
+  line-height: 30px;
+}
+
+.frequency {
+  margin-top: 11px;
+}
+
+.music {
+  margin-top: 19px;
+}
+
+.hearing {
+  margin-top: 15px;
 }
 
 .results {
@@ -127,7 +149,43 @@ nav a:active {
 
 .pentagons p {
   color: rgb(255, 255, 255);
-  font-size: 16px;
+  font-size: 14px;
+}
+
+.pentagon1 h2 {
+  margin-left: 90px;
+}
+
+.pentagon2 h2 {
+  margin-left: 90px;
+}
+
+.pentagon3 h2 {
+  margin-left: 90px;
+}
+
+.pentagon4 h2 {
+  margin-left: 90px;
+}
+
+.pentagon1 p {
+  margin-left: 80px;
+  margin-top: -20px;
+}
+
+.pentagon2 p {
+  margin-left: 80px;
+  margin-top: -20px;
+}
+
+.pentagon3 p {
+  margin-left: 80px;
+  margin-top: -20px;
+}
+
+.pentagon4 p {
+  margin-left: 80px;
+  margin-top: -20px;
 }
 
 .contact {
@@ -181,12 +239,12 @@ nav a:active {
 .statistics {
   position: absolute;
   text-align: center;
-  top: 2170px;
+  top: 2250px;
 }
 
 footer {
   height: 249px;
-  margin-left: -10px;
+  width: 100%;
 }
 
 footer p {
