@@ -188,8 +188,8 @@ nav a:active {
 
 @media (max-width: 480px) {
   .results {
-    height: 1491px;
-    background-size: 300%;
+    height: 2000px;
+    background-size: 600%;
   }
 }
 
@@ -291,7 +291,7 @@ nav a:active {
 
 @media (max-width: 480px) {
   .contact {
-    margin-top: 300px;
+    margin: -300px 0px -100px 0px;
   }
 }
 
