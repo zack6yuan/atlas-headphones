@@ -72,14 +72,17 @@ nav a:active {
 }
 
 .about h1 {
-  color: white;
-  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  margin-top: 400px;
+  color: black;
+  font-size: 32px;
 }
 
 .services {
   display: flex;
   justify-content: center;
-  padding: 120px;
+  padding: 140px;
 }
 
 .services p {
@@ -91,12 +94,15 @@ nav a:active {
   background-repeat: no-repeat;
   background-size: 100%;
   height: 650px;
+  margin-left: -10px;
 }
 
 .results h1 {
   color: white;
   display: flex;
   justify-content: center;
+  font-size: 32px;
+  padding-top: 100px;
 }
 
 .results p {
@@ -115,11 +121,13 @@ nav a:active {
 }
 
 .pentagons h2 {
-  color: white;
+  color: rgb(255, 255, 255);
+  font-size: 46px;
 }
 
 .pentagons p {
-  color: white;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
 }
 
 .contact {
@@ -170,8 +178,15 @@ nav a:active {
   line-height: 30px;
 }
 
+.statistics {
+  position: absolute;
+  text-align: center;
+  top: 2170px;
+}
+
 footer {
   height: 249px;
+  margin-left: -10px;
 }
 
 footer p {
