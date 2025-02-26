@@ -5,11 +5,26 @@ body {
   background-size: 100%;
 }
 
+@media (max-width: 480px) {
+  body {
+    background-size: 300%;
+    height: 869px;
+    width: 480px;
+  }
+}
+
 .header-logo img {
   display: flex;
   width: 161px;
   height: 32px;
   margin: 25px 0px 0px 200px;
+}
+
+@media (max-width: 480px) {
+  .header-logo img {
+    display: flex;
+    margin: 30px auto;
+  }
 }
 
 .logo img {
@@ -59,6 +74,13 @@ nav a:active {
   transition: 0.3s ease-in-out;
 }
 
+@media (max-width: 480px) {
+  .action {
+    display: flex;
+    margin: 100px auto;
+  }
+}
+
 .hero h1 {
   color: white;
   text-align: center;
@@ -66,10 +88,26 @@ nav a:active {
   margin: 400px 0px -20px 0px;
 }
 
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 32px;
+    margin: 250px 0px 0px 55px;
+    width: 357px;
+  }
+}
+
 .hero h3 {
   color: white;
   text-align: center;
   font-size: 21px;
+}
+
+@media (max-width: 480px) {
+  .hero h3 {
+    font-size: 16px;
+    width: 279px;
+    margin: 20px auto;
+  }
 }
 
 .hero p {
@@ -88,11 +126,27 @@ nav a:active {
   font-size: 32px;
 }
 
+@media (max-width: 480px) {
+  .about h1 {
+    margin-top: 50px;
+  }
+}
+
 .services {
   display: flex;
   justify-content: center;
   padding: 140px;
   text-align: center;
+}
+
+@media (max-width: 480px) {
+  .services {
+    width: 207px;
+    height: 1491px;
+    display: flex;
+    flex-direction: column;
+    margin: -180px 0px -350px 0px;
+  }
 }
 
 .services p {
@@ -120,12 +174,28 @@ nav a:active {
   margin: 0px -10px -10px -10px;
 }
 
+@media (max-width: 480px) {
+  .results {
+    height: 1491px;
+    background-size: 300%;
+  }
+}
+
 .results h1 {
   color: white;
   display: flex;
   justify-content: center;
   font-size: 32px;
   padding-top: 100px;
+}
+
+@media (max-width: 480px) {
+  .results h1 {
+    width: 266px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 .results p {
@@ -135,6 +205,15 @@ nav a:active {
 .pentagons {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 480px) {
+  .pentagons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+    margin-top: 80px;
+  }
 }
 
 .pentagons img {
@@ -198,6 +277,12 @@ nav a:active {
   font-size: 32px;
 }
 
+@media (max-width: 480px) {
+  .contact {
+    margin-top: 300px;
+  }
+}
+
 .contact-fields {
   width: 335px;
   margin: 0 auto;
@@ -226,6 +311,13 @@ nav a:active {
   height: 32px;
 }
 
+@media (max-width: 480px) {
+  .logo img {
+    display: flex;
+    margin: 50px 0px 0px 160px;
+  }
+}
+
 .socials{
   display: flex;
   justify-content: flex-end;
@@ -245,16 +337,107 @@ nav a:active {
   line-height: 30px;
 }
 
+@media (max-width: 480px) {
+  .paragraph p {
+    width: 335px;
+    height: 182px;
+    margin-top: 40px;
+  }
+}
+
 .statistics {
   position: absolute;
   text-align: center;
-  top: 2250px;
+  top: 2230px;
+}
+
+@media (max-width: 480px) {
+  .pentagon1 h2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 780px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pentagon1 p {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 900px;
+    width: 111px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pentagon2 h2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 1055px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pentagon2 p {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 1175px;
+    width: 111px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pentagon3 h2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 1330px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pentagon3 p {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 1450px;
+    width: 111px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pentagon4 h2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 1605px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pentagon4 p {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 1725px;
+    width: 111px;
+  }
 }
 
 footer {
   background-color: #071629;
   height: 249px;
   margin: 0px -10px -10px -10px;
+}
+
+@media (max-width: 480px) {
+  footer {
+    height: 240px;
+    margin-top: 20px;
+  }
 }
 
 .socials {
@@ -267,10 +450,23 @@ footer {
   padding: 10px;
 }
 
+@media (max-width: 480px) {
+  .socials img {
+    display: flex;
+    margin-top: 80px;
+  }
+}
+
 .copyright p {
   color: white;
   display: flex;
   justify-content: center;
   margin-top: 40px;
   font-size: 12px;
+}
+
+@media (max-width: 480px) {
+  .copyright p {
+    margin-top: 130px;
+  }
 }
