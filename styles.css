@@ -5,23 +5,23 @@ body {
   background-size: 100%;
 }
 
-footer {
-  background-color: #071629;
-}
-
 .header-logo img {
   display: flex;
-  margin-left: 200px;
-  margin-top: 25px;
-  scale: 0.6;
+  margin: 25px 0px 0px 200px;
+}
+
+.logo img {
+  display: flex;
+  width: 161px;
+  height: 32px;
+  margin: 110px 0px 0px 200px;
 }
 
 nav ul {
   display: flex;
   justify-content: flex-end;
   list-style: none;
-  margin-right: 150px;
-  margin-top: -40px;
+  margin: -40px 150px 0px 0px;
 }
 
 nav a {
@@ -47,9 +47,7 @@ nav a:active {
   width: 162px;
   height: 44px;
   font-weight: bold;
-  margin-left: 850px;
-  margin-bottom: 80px;
-  margin-top: 80px;
+  margin: 80px 0px 80px 850px;
 }
 
 .action:hover {
@@ -61,8 +59,7 @@ nav a:active {
   color: white;
   text-align: center;
   font-size: 42px;
-  margin-top: 400px;
-  margin-bottom: -20px;
+  margin: 400px 0px -20px 0px;
 }
 
 .hero h3 {
@@ -116,7 +113,7 @@ nav a:active {
   background-repeat: no-repeat;
   background-size: 100%;
   height: 650px;
-  margin-left: -10px;
+  margin: 0px -10px -10px -10px;
 }
 
 .results h1 {
@@ -143,12 +140,12 @@ nav a:active {
 }
 
 .pentagons h2 {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-size: 46px;
 }
 
 .pentagons p {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-size: 14px;
 }
 
@@ -168,24 +165,22 @@ nav a:active {
   margin-left: 90px;
 }
 
+/* Margins: top, right, bottom, left */
+
 .pentagon1 p {
-  margin-left: 80px;
-  margin-top: -20px;
+  margin: -20px 0px 0px 80px;
 }
 
 .pentagon2 p {
-  margin-left: 80px;
-  margin-top: -20px;
+  margin: -20px 0px 0px 80px;
 }
 
 .pentagon3 p {
-  margin-left: 80px;
-  margin-top: -20px;
+  margin: -20px 0px 0px 80px;
 }
 
 .pentagon4 p {
-  margin-left: 80px;
-  margin-top: -20px;
+  margin: -20px 0px 0px 80px;
 }
 
 .contact {
@@ -243,12 +238,25 @@ nav a:active {
 }
 
 footer {
+  background-color: #071629;
   height: 249px;
-  width: 100%;
+  margin: 0px -10px -10px -10px;
 }
 
-footer p {
+.socials {
+  display: flex;
+  margin: -40px 200px 0px 0px;
+}
+
+.socials img {
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.copyright p {
   color: white;
   display: flex;
   justify-content: center;
+  margin-top: 40px;
+  font-size: 12px;
 }
