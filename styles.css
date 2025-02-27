@@ -1,3 +1,5 @@
+/* Body Styles */
+
 body {
   font-family: 'Source Sans Pro';
   background-image: url(images/headphones_hero_1.jpg);
@@ -13,6 +15,8 @@ body {
     width: 480px;
   }
 }
+
+/* Header Logo Styles */
 
 .header-logo img {
   display: flex;
@@ -34,6 +38,8 @@ body {
   height: 32px;
   margin: 110px 0px 0px 200px;
 }
+
+/* Nav Styles */
 
 nav ul {
   display: flex;
@@ -59,6 +65,8 @@ nav a:active {
   color: white;
 }
 
+/* Button Styles */
+
 .action {
   background-color: #FF6565;
   color: white;
@@ -68,7 +76,7 @@ nav a:active {
   height: 44px;
   font-weight: bold;
   box-shadow: 3px 3px 10px rgb(0, 0, 0);
-  margin: 80px 0px 80px 850px;
+  margin: 80px 0px 80px 750px;
 }
 
 .action:hover {
@@ -88,6 +96,8 @@ nav a:active {
     margin: 14px auto;
   }
 }
+
+/* Hero Styles */
 
 @media (max-width: 480px) {
   .hero {
@@ -132,6 +142,8 @@ nav a:active {
   margin: auto;
 }
 
+/* About Styles */
+
 .about h1 {
   display: flex;
   justify-content: center;
@@ -145,6 +157,8 @@ nav a:active {
     margin-top: 250px;
   }
 }
+
+/* Services Styles */
 
 .services {
   display: flex;
@@ -168,6 +182,8 @@ nav a:active {
   line-height: 30px;
 }
 
+/* Frequency Styles */
+
 .frequency {
   margin-top: 11px;
 }
@@ -178,6 +194,8 @@ nav a:active {
   }
 }
 
+/* Music Styles */
+
 .music {
   margin-top: 19px;
 }
@@ -185,6 +203,8 @@ nav a:active {
 .hearing {
   margin-top: 15px;
 }
+
+/* Results Styles */
 
 .results {
   background: url(images/headphones_hero_2.jpg);
@@ -221,6 +241,8 @@ nav a:active {
 .results p {
   color: white;
 }
+
+/* Pentagon Styles */
 
 .pentagons {
   display: flex;
@@ -284,112 +306,6 @@ nav a:active {
 
 .pentagon4 p {
   margin: -20px 0px 0px 80px;
-}
-
-.contact {
-  height: 650px;
-}
-
-.contact h1 {
-  display: flex;
-  justify-content: center;
-  margin-top: 150px;
-  font-size: 32px;
-}
-
-@media (max-width: 480px) {
-  .contact {
-    margin: -300px 0px -100px 0px;
-  }
-}
-
-.contact-fields {
-  width: 335px;
-  margin: 0 auto;
-}
-
-.contact-fields input {
-  display: flex;
-  margin-top: 0 auto;
-  margin-left: -40px;
-  padding: 30px;
-  font-size: 14px;
-  border: none;
-  width: 350px;
-  border-bottom: 1px solid #979797;
-}
-
-@media (max-width: 480px) {
-  .contact-fields input {
-    width: 350px;
-    margin-left: -50px;
-  }
-}
-
-.contact-fields input::placeholder {
-  color: black;
-  font-weight: bolder;
-}
-
-@media (max-width: 480px) {
-  .contact-fields input::placeholder {
-    margin-left: -20px;
-  }
-}
-
-.logo {
-  display: flex;
-}
-
-.logo img {
-  width: 161px;
-  height: 32px;
-}
-
-@media (max-width: 480px) {
-  .logo img {
-    display: flex;
-    margin: 50px 0px 0px 160px;
-  }
-}
-
-.socials {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.socials img {
-  width: 30px;
-  height: 30px;
-}
-
-.paragraph p {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  width: 637px;
-  margin: auto;
-  line-height: 30px;
-}
-
-@media (max-width: 480px) {
-  .paragraph p {
-    width: 335px;
-    height: 182px;
-    margin-top: 120px;
-  }
-}
-
-.statistics {
-  position: absolute;
-  text-align: center;
-  top: 2190px;
-}
-
-@media (max-width: 480px) {
-  .statistics {
-    top: 2350px;
-  }
 }
 
 @media (max-width: 480px) {
@@ -468,6 +384,136 @@ nav a:active {
   }
 }
 
+/* Contact Styles */
+
+.contact {
+  height: 650px;
+}
+
+.contact h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  font-size: 32px;
+}
+
+@media (max-width: 480px) {
+  .contact {
+    margin: -300px 0px -100px 0px;
+  }
+}
+
+/* Contact Field Styles */
+
+.contact-fields {
+  width: 335px;
+  margin: 0 auto;
+}
+
+.contact-fields input {
+  display: flex;
+  margin-top: 0 auto;
+  margin-left: -40px;
+  padding: 30px;
+  font-size: 14px;
+  border: none;
+  width: 350px;
+  border-bottom: 1px solid #979797;
+}
+
+@media (max-width: 480px) {
+  .contact-fields input {
+    width: 350px;
+    margin-left: -50px;
+  }
+}
+
+.contact-fields input::placeholder {
+  color: black;
+  font-weight: bolder;
+}
+
+@media (max-width: 480px) {
+  .contact-fields input::placeholder {
+    margin-left: -20px;
+  }
+}
+
+/* Logo Styles */
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 161px;
+  height: 32px;
+}
+
+@media (max-width: 480px) {
+  .logo img {
+    display: flex;
+    margin: 50px 0px 0px 160px;
+  }
+}
+
+/* Social Styles */
+
+.socials {
+  display: flex;
+  justify-content: flex-end;
+  margin: -40px 200px -10px 0px;
+}
+
+.socials img {
+  width: 30px;
+  height: 30px;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+@media (max-width: 480px) {
+  .socials img {
+    display: flex;
+    margin-top: 80px;
+  }
+}
+
+/* Paragraph Styles */
+
+.paragraph p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 637px;
+  margin: auto;
+  line-height: 30px;
+}
+
+@media (max-width: 480px) {
+  .paragraph p {
+    width: 335px;
+    height: 182px;
+    margin-top: 120px;
+  }
+}
+
+/* Statistics Styles */
+
+.statistics {
+  position: absolute;
+  text-align: center;
+  top: 2190px;
+}
+
+@media (max-width: 480px) {
+  .statistics {
+    top: 2350px;
+  }
+}
+
+/* Footer Styles */
+
 footer {
   background-color: #071629;
   height: 249px;
@@ -481,22 +527,7 @@ footer {
   }
 }
 
-.socials {
-  display: flex;
-  margin: -40px 200px -10px 0px;
-}
-
-.socials img {
-  justify-content: flex-end;
-  padding: 10px;
-}
-
-@media (max-width: 480px) {
-  .socials img {
-    display: flex;
-    margin-top: 80px;
-  }
-}
+/* Copyright Styles */
 
 .copyright p {
   color: white;
