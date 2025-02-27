@@ -1,3 +1,5 @@
+/* @media: targeting max-width (px) of screen size for smaller devices */
+
 /* Body Styles */
 
 body {
@@ -6,6 +8,8 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   body {
@@ -24,6 +28,8 @@ body {
   height: 32px;
   margin: 25px 0px 0px 200px;
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   .header-logo img {
@@ -84,12 +90,16 @@ nav a:active {
   transition: 0.3s ease-in-out;
 }
 
+/* Mobile */
+
 @media (max-width: 480px) {
   .action {
     display: flex;
     margin: 50px auto;
   }
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   .button-style {
@@ -98,6 +108,8 @@ nav a:active {
 }
 
 /* Hero Styles */
+
+/* Mobile */
 
 @media (max-width: 480px) {
   .hero {
@@ -112,6 +124,8 @@ nav a:active {
   margin: 400px 0px -20px 0px;
 }
 
+/* Mobile */
+
 @media (max-width: 480px) {
   .hero h1 {
     font-size: 32px;
@@ -125,6 +139,8 @@ nav a:active {
   text-align: center;
   font-size: 21px;
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   .hero h3 {
@@ -152,6 +168,8 @@ nav a:active {
   font-size: 32px;
 }
 
+/* Mobile */
+
 @media (max-width: 480px) {
   .about h1 {
     margin-top: 250px;
@@ -166,6 +184,8 @@ nav a:active {
   padding: 140px;
   text-align: center;
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   .services {
@@ -187,6 +207,8 @@ nav a:active {
 .frequency {
   margin-top: 11px;
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   .frequency {
@@ -214,6 +236,8 @@ nav a:active {
   margin: 0px -10px -10px -10px;
 }
 
+/* Mobile */
+
 @media (max-width: 480px) {
   .results {
     height: 2000px;
@@ -228,6 +252,8 @@ nav a:active {
   font-size: 32px;
   padding-top: 100px;
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   .results h1 {
@@ -248,6 +274,8 @@ nav a:active {
   display: flex;
   justify-content: center;
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   .pentagons {
@@ -308,6 +336,8 @@ nav a:active {
   margin: -20px 0px 0px 80px;
 }
 
+/* Mobile */
+
 @media (max-width: 480px) {
   .pentagon1 h2 {
     position: absolute;
@@ -316,6 +346,8 @@ nav a:active {
     top: 780px;
   }
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   .pentagon1 p {
@@ -327,6 +359,8 @@ nav a:active {
   }
 }
 
+/* Mobile */
+
 @media (max-width: 480px) {
   .pentagon2 h2 {
     position: absolute;
@@ -335,6 +369,8 @@ nav a:active {
     top: 1055px;
   }
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   .pentagon2 p {
@@ -346,6 +382,8 @@ nav a:active {
   }
 }
 
+/* Mobile */
+
 @media (max-width: 480px) {
   .pentagon3 h2 {
     position: absolute;
@@ -354,6 +392,8 @@ nav a:active {
     top: 1330px;
   }
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   .pentagon3 p {
@@ -365,6 +405,8 @@ nav a:active {
   }
 }
 
+/* Mobile */
+
 @media (max-width: 480px) {
   .pentagon4 h2 {
     position: absolute;
@@ -373,6 +415,8 @@ nav a:active {
     top: 1605px;
   }
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   .pentagon4 p {
@@ -396,6 +440,8 @@ nav a:active {
   margin-top: 150px;
   font-size: 32px;
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   .contact {
@@ -421,6 +467,8 @@ nav a:active {
   border-bottom: 1px solid #979797;
 }
 
+/* Mobile */
+
 @media (max-width: 480px) {
   .contact-fields input {
     width: 350px;
@@ -432,6 +480,8 @@ nav a:active {
   color: black;
   font-weight: bolder;
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   .contact-fields input::placeholder {
@@ -449,6 +499,8 @@ nav a:active {
   width: 161px;
   height: 32px;
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   .logo img {
@@ -472,6 +524,8 @@ nav a:active {
   padding: 10px;
 }
 
+/* Mobile */
+
 @media (max-width: 480px) {
   .socials img {
     display: flex;
@@ -490,6 +544,8 @@ nav a:active {
   line-height: 30px;
 }
 
+/* Mobile */
+
 @media (max-width: 480px) {
   .paragraph p {
     width: 335px;
@@ -506,6 +562,8 @@ nav a:active {
   top: 2190px;
 }
 
+/* Mobile */
+
 @media (max-width: 480px) {
   .statistics {
     top: 2350px;
@@ -519,6 +577,8 @@ footer {
   height: 249px;
   margin: 0px -10px -10px -10px;
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   footer {
@@ -536,6 +596,8 @@ footer {
   margin-top: 40px;
   font-size: 12px;
 }
+
+/* Mobile */
 
 @media (max-width: 480px) {
   .copyright p {
