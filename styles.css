@@ -9,7 +9,7 @@ body {
   body {
     background-size: 350%;
     background-position: -400px center;
-    height: 869px;
+    height: 850px;
     width: 480px;
   }
 }
@@ -508,6 +508,6 @@ footer {
 
 @media (max-width: 480px) {
   .copyright p {
-    margin-top: 130px;
+    margin: 50px 30px 0px 0px;
   }
 }
